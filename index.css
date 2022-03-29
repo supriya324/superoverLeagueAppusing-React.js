@@ -1,0 +1,38 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  height: 100vh;
+}
+.headingcolor {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.image {
+  max-width: 60px;
+}
+.images-container {
+  display: flex;
+}
+
+@media screen and (min-width: 576px) {
+  .headingcolor {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
